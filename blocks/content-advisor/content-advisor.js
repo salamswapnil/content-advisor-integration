@@ -20,7 +20,7 @@ export default async function decorate(block) {
   const imsProps = {
     imsClientId: "aem-assets-frontend-1",
     imsScope: "AdobeID,openid,additional_info.projectedProductContext,read_organizations",
-    redirectUrl: window.location.href,
+    redirectUrl: "https://experience.adobe.com/solutions/CQ-assets-selectors/static-assets/resources/integration/index.html",
     modalMode: true,
     // Optional parameters:
     // modalMode: false, // set to false to open in a full page reload flow
