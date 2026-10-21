@@ -1,0 +1,12 @@
+.content-advisor .content-advisor-dialog {
+  width: min(90vw, 1200px);
+  height: min(90vh, 800px);
+  max-width: 90vw;
+  max-height: 90vh;
+  padding: 0;
+  border: 0;
+}
+
+.content-advisor .content-advisor-dialog > div {
+  height: 100%;
+}
