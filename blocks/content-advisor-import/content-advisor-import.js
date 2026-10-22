@@ -36,7 +36,7 @@ export default async function decorate(block) {
 
   const launchButton = document.createElement('button');
   launchButton.type = 'button';
-  launchButton.textContent = 'Launch Content Advisor';
+  launchButton.textContent = 'Select Asset';
 
   const dialog = document.createElement('dialog');
   dialog.className = 'content-advisor-import-dialog';
